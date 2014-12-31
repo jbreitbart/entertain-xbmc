@@ -109,6 +109,9 @@ if (settings.getSetting("cat_general") == "true"):
 	addEntertainChannel ('rtp://@239.35.20.10:10000', 'RTL', year='1984', genre=language(30090), plot=language(30130), chancat=2)
 	addEntertainChannel ('rtp://@239.35.20.11:10000', 'VOX', year='1993', genre=language(30090), plot=language(30131), chancat=2)
 	addEntertainChannel ('rtp://@239.35.20.22:10000', 'RTL II', year='1993', genre=language(30090), plot=language(30132), chancat=2)
+	# -- Pro7Sat1 Media Group
+	addEntertainChannel ('rtp://@239.35.20.20:10000', 'SAT.1', year='1984', genre=language(30090), plot=language(30132), chancat=3)
+	addEntertainChannel ('rtp://@239.35.20.21:10000', 'Pro7', year='1989', genre=language(30090), plot=language(30132), chancat=3)
 
 # -- Regional Channels
 if (settings.getSetting("cat_regional") == "true"):
@@ -164,6 +167,10 @@ if (settings.getSetting("cat_special") == "true"):
 	# -- RTL Group
 	addEntertainChannel ('rtp://@239.35.20.39:10000', 'Super RTL', year='1995', genre=language(30093), plot=language(30133), chancat=2)
 	addEntertainChannel ('rtp://@239.35.20.59:10000', 'RTLNITRO', year='2012', genre=language(30093), plot=language(30135), chancat=2)
+	# -- Pro7Sat1 Media Group
+	addEntertainChannel ('rtp://@239.35.20.24:10000', 'SAT.1 Gold', year='2013', genre=language(30090), plot=language(30132), chancat=3)
+	addEntertainChannel ('rtp://@239.35.20.9:10000', 'sixx', year='2010', genre=language(30090), plot=language(30132), chancat=3)
+	addEntertainChannel ('rtp://@239.35.20.33:10000', 'ProSieben MAXX', year='2013', genre=language(30090), plot=language(30132), chancat=3)
 
 # -- News Channels
 if (settings.getSetting("cat_news") == "true"):
