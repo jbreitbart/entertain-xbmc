@@ -112,6 +112,8 @@ if (settings.getSetting("cat_general") == "true"):
 	# -- Pro7Sat1 Media Group
 	addEntertainChannel ('rtp://@239.35.20.20:10000', 'SAT.1', year='1984', genre=language(30090), plot=language(30132), chancat=3)
 	addEntertainChannel ('rtp://@239.35.20.21:10000', 'Pro7', year='1989', genre=language(30090), plot=language(30132), chancat=3)
+	addEntertainChannel ('rtp://@239.35.20.38:10000', 'Kabel 1', year='1989', genre=language(30090), plot=language(30132), chancat=3)
+
 
 # -- Regional Channels
 if (settings.getSetting("cat_regional") == "true"):
